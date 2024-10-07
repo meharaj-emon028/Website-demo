@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a:hover, a:focus, a {
+    text-decoration: none;
+    outline: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.fix:after, .fix:before {
+    content: "";
+    display: table;
+}
+
+.fix:after {
+    clear: both;
+}
+
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+
+
+
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.header-area {
+    background: url(image/banner.jpeg) no-repeat scroll 0 0 / cover;
+     position: relative;
+    z-index: 1;
+    padding-top: 20px;
+   
+}
+
+.header-area:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.logo-menu {
+    
+}
+
+.logo a {
+    color: #fff;
+}
+
+.menu {}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    border-bottom: 3px solid transparent;
+}
+.menu ul li:last-child a {
+    background-color: red;
+}
+
+.menu ul li a:hover {
+    background-color: red;
+    border-color: #fff;
+}
+
+.welcome-content {
+    margin-top: 100px;
+}
+.welcome-content img {
+    float: left;
+}
+
+.welcome-img {
+  background-color: #000;
+  border-radius: 15px 15px 0 0;
+  padding: 20px 0 0;
+}
+.welcome-text  {
+    width: 70%;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.welcome-btn {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+}
+.welcome-btn a {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #e76e66;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 10px;
+    width: 130px;
+    text-align: center;
+}
+.welcome-btn span.or {
+    background-color: #fff;
+    font-style: italic;
+    font-weight: 600;
+    color: #494949;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+.welcome-btn a:first-child {
+    margin-left: 0px;
+}
+
+.about-area {
+    padding: 50px 0px;
+}
+
+.about {}
+.about-text {
+    width: 70%;
+}
+.about img {
+    float: right;
+}
+
+.social-icon {
+    margin-top: 50px;
+}
+.social-icon a {
+    width: 40px;
+    height: 40px;
+    display: inline-table;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.social-icon a i{
+    text-shadow: 2px 2px #717171, 4px 4px #717171, 6px 6px #717171, 8px 8px #717171, 10px 10px #717171, 12px 12px #717171, 14px 14px #717171, 16px 16px #717171;
+}
+
+.social-icon a.twitter {
+    background-color: #5EC8F4;
+}
+.social-icon a.facebook {
+    background-color: #405999;
+}
+.social-icon a.dribble {
+    background-color: #E85791;
+}
+.social-icon a.pinterest {
+    background-color: #E3212C;
+}
+
+.social-icon a i {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.service-area {
+    padding: 50px 0px;
+    background-color: #F6F6F8;
+}
+
+.single-service {
+    width: 320px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 15px;
+}
+.icon i {
+    display: table-cell;
+    vertical-align: middle;
+}
+.slider-area {
+    background-color: #DDA56C;
+    padding: 50px 0px 0px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.pricing-table-area {
+    padding: 50px 0px;
+    background-color: #F6F6F6;
+}
+
+.pricing-table-area .section-title {
+    color: #000;
+}
+
+
+.price-list {
+    margin-left: -30px;
+    padding: 0px 60px;
+}
+.single-price {
+    width: 260px;
+    background-color: #ddd;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.price-title {
+    position: relative;
+    padding: 20px 10px;
+}
+
+span.price {
+    border-radius: 50%;
+    bottom: -25px;
+    color: #fff;
+    display: inline-block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    padding-top: 9px;
+    box-sizing: border-box;
+}
+
+span.price span {
+    font-size: 10px;
+}
+
+.price-content {
+    padding: 40px 20px 20px;
+}
+
+.price-content ul {
+    list-style: none;
+}
+
+.price-content ul li {
+    margin-bottom: 15px;
+}
+
+
+.price-content a.sign-up {
+    padding: 8px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.single-price.green .price-title {
+    background-color: #1A7E5A;
+}
+.single-price.green .price-title span.price {
+    background-color: #156548;
+}
+.single-price.green .price-content {
+    background-color: #6CBFA1;
+}
+.single-price.green .price-content a.sign-up {
+    background-color: #1A7E5A;
+}
+
+.single-price.pink .price-title {
+    background-color: #E76E66;
+}
+.single-price.pink .price-title span.price {
+    background-color: #B95852;
+}
+.single-price.pink .price-content {
+    background-color: #F3AEA7;
+}
+.single-price.pink .price-content a.sign-up {
+    background-color: #E66D64;
+}
+
+.single-price.blue .price-title {
+    background-color: #579AAA;
+}
+.single-price.blue .price-title span.price {
+    background-color: #457B87;
+}
+.single-price.blue .price-content {
+    background-color: #9BCAD4;
+}
+.single-price.blue .price-content a.sign-up {
+    background-color: #579AAA;
+}
+
+.contact-area {
+    background-color: #2E2E2E;
+    padding: 50px 0px;
+}
+
+.contact-form {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.left_side, .right_side {
+    width: 50%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+.right_side {}
+
+.contact {}
+.contact input, .contact select, .contact textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 6px 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.contact textarea {
+    min-height: 140px
+}
+
+.contact input[type="submit"] {
+    width: auto;
+    float: right;
+    text-transform: uppercase;
+    background-color: #E86D65;
+    border: none;
+    color: #fff;
+}
+
